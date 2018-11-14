@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Home page</title>
+    <style media="screen">
+      .top{
+        text-align: center;
+      }
+      .container{
+        border: solid grey 1em;
+        margin: 1em;
+      }
+      .card{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+      .col-button{
+        align-self: flex-end;
+      }
+      button{
+        margin-bottom: 1em;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="top">
+      <h1>Welcome User</h1>
+      <button type="button" name="button">Plan a trip </button>
+    </div>
+  <main class ="container">
+    <div class="card">
+      <div class="col">
+        <h1>Trip name</h1>
+        <h4>Date:</h4>
+        <h4>Date</h4>
+      </div>
+      <div class="col">
+        <h1>Airline:</h4>
+        <h4><a href="#">Airline Name</a></h5>
+
+      </div>
+      <div class="col">
+        <h4> From</h4>
+        <p>Departue City</p>
+        <h4>To:</h4>
+        <p>Arrival City</p>
+      </div>
+      <div class="col col-button">
+        <button type="button" name="button">Edit Trip</button>
+      </div>
+
+    </div>
+  </main>
+
+  </body>
+</html>
